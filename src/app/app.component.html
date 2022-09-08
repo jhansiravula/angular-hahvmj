@@ -1,0 +1,9 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<form [formGroup]="form">
+  <input type="text" formControlName="test" [validate-message]="testValidateOption"><br/>
+  <input type="number" formControlName="test2" [validate-message]="test2ValidateOption">
+</form>
